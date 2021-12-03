@@ -33,6 +33,9 @@ html, body {
   background-size: cover;
   position: absolute;
   /* z-index:-10; */ }
+  #screen img {
+    position: absolute;
+    width: 100%; }
 
 #device {
   width: 430px;
