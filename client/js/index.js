@@ -5,7 +5,7 @@ const wrapperHeight = 884;
 
 (function(window){
     init();
-    loadStep('dist/assets/anim-data/seq-chargingstation.json', 'screen-1', false, [28,192]);
+    loadStep('dist/assets/anim-data/seq-chargingstation.json', 'screen-cs', false, [28,192]);
 })(window);
 
 
@@ -14,9 +14,13 @@ function init(){
 	element.addEventListener('click', function(){
 	    const _id = this.getAttribute('id');
 	    switch(_id){
-	    case 'anim-1' : loadStep('dist/assets/anim-data/seq-chargingstation.json', 'screen-1', false, [28,192])
+	    case 'anim-cs' : loadStep('dist/assets/anim-data/seq-chargingstation.json', 'screen-cs', false, [28,192])
 		break;
-	    case 'anim-2' : loadStep('dist/assets/anim-data/seq-group.json', 'screen-2', false, [28,312])
+	    case 'anim-group' : loadStep('dist/assets/anim-data/seq-group.json', 'screen-group', false, [28,312])
+		break;
+	    case 'anim-loading-1' : loadStep('dist/assets/anim-data/seq-loading-prior-1.json', 'screen-loading-1', true, [28,256])
+		break;
+	    case 'anim-loading-2' : loadStep('dist/assets/anim-data/seq-loading-prior-2.json', 'screen-loading-2', true, [28,256])
 		break;
 	    // case 'anim-3' : loadStep('dist/assets/anim-data/seq-llm-dynamic.json', 'dist/assets/screen.png', true, [28,312])
 		// break;
