@@ -22,6 +22,8 @@ function init(){
 		break;
 	    case 'anim-loading-2' : loadStep('dist/assets/anim-data/seq-loading-prior-2.json', 'screen-loading-2', true, [28,256])
 		break;
+	    case 'anim-loading-3' : loadStep('dist/assets/anim-data/seq-loading-prior-3.json', 'screen-loading-3', true, [28,256])
+		break;
 	    // case 'anim-3' : loadStep('dist/assets/anim-data/seq-llm-dynamic.json', 'dist/assets/screen.png', true, [28,312])
 		// break;
 	    }
