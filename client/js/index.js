@@ -18,11 +18,15 @@ function init(){
 		break;
 	    case 'anim-group' : loadStep('dist/assets/anim-data/seq-group.json', 'screen-group', false, [28,312])
 		break;
+	    case 'anim-llm' : loadStep('dist/assets/anim-data/seq-llm.json', 'screen-llm', false, [28,192])
+		break;
 	    case 'anim-loading-1' : loadStep('dist/assets/anim-data/seq-loading-prior-1.json', 'screen-loading-1', true, [28,256])
 		break;
 	    case 'anim-loading-2' : loadStep('dist/assets/anim-data/seq-loading-prior-2.json', 'screen-loading-2', true, [28,256])
 		break;
 	    case 'anim-loading-3' : loadStep('dist/assets/anim-data/seq-loading-prior-3.json', 'screen-loading-3', true, [28,256])
+		break;
+	    case 'anim-badges' : loadStep('dist/assets/anim-data/seq-badge.json', 'screen-badge', false, [28,160])
 		break;
 	    // case 'anim-3' : loadStep('dist/assets/anim-data/seq-llm-dynamic.json', 'dist/assets/screen.png', true, [28,312])
 		// break;
