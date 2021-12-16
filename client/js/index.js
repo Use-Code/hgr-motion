@@ -36,9 +36,9 @@ function init(){
 		break;
 	    case 'anim-1100' : loadStep('dist/assets/anim-data/seq-loading-prior-1.json', 'screen-1100', true, [28,296], 1)
 		break;
-	    case 'anim-1101' : loadStep('dist/assets/anim-data/seq-loading-prior-2.json', 'screen-1101', true, [28,296], 1)
+	    case 'anim-1101' : loadStep('dist/assets/anim-data/seq-loading-prior-3.json', 'screen-1101', true, [28,296], 1)
 		break;
-	    case 'anim-1102' : loadStep('dist/assets/anim-data/seq-loading-prior-3.json', 'screen-1102', true, [28,296], 1)
+	    case 'anim-1102' : loadStep('dist/assets/anim-data/seq-loading-prior-2.json', 'screen-1102', true, [28,296], 1)
 		break;
 	    case 'anim-1201' : loadStep('dist/assets/anim-data/seq-badge.json', 'screen-1201', false, [28,192], 1)
 		break;
