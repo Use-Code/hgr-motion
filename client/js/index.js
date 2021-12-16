@@ -5,7 +5,7 @@ const wrapperHeight = 884;
 
 (function(window){
     init();
-    loadStep('dist/assets/anim-data/seq-chargingstation.json', 'screen-cs', false, [28,192]);
+    loadStep('dist/assets/anim-data/seq-chargingstation.json', 'screen-200', false, [28,192]);
 })(window);
 
 
@@ -14,23 +14,33 @@ function init(){
 	element.addEventListener('click', function(){
 	    const _id = this.getAttribute('id');
 	    switch(_id){
-	    case 'anim-cs' : loadStep('dist/assets/anim-data/seq-chargingstation.json', 'screen-cs', false, [28,192], 1)
+	    case 'anim-200' : loadStep('dist/assets/anim-data/seq-chargingstation.json', 'screen-200', false, [28,192], 1)
 		break;
-	    case 'anim-group' : loadStep('dist/assets/anim-data/seq-group.json', 'screen-group', false, [28,312], 1)
+	    case 'anim-201' : loadStep('dist/assets/anim-data/seq-llm.json', 'screen-201', false, [28,192], 1)
 		break;
-	    case 'anim-strategy-dynamic' : loadStep('dist/assets/anim-data/seq-strategy-dynamic.json', 'screen-strategy-dynamic', true, [-50,200], 0.45)
+	    case 'anim-202' : loadStep('dist/assets/anim-data/seq-3chargingstations.json', 'screen-202', false, [28,192], 1)
 		break;
-	    case 'anim-strategy-static' : loadStep('dist/assets/anim-data/seq-strategy-static.json', 'screen-strategy-static', true, [116,200], 0.45)
+	    case 'anim-203' : loadStep('dist/assets/anim-data/seq-2groups.json', 'screen-203', false, [28,192], 1)
 		break;
-	    case 'anim-llm' : loadStep('dist/assets/anim-data/seq-llm.json', 'screen-llm', false, [28,192], 1)
+	    case 'anim-204' : loadStep('dist/assets/anim-data/seq-badge.json', 'screen-204', false, [28,192], 1)
 		break;
-	    case 'anim-loading-1' : loadStep('dist/assets/anim-data/seq-loading-prior-1.json', 'screen-loading-1', true, [28,256], 1)
+	    case 'anim-303' : loadStep('dist/assets/anim-data/seq-strategy-dynamic.json', 'screen-303', true, [-58,235], 0.45)
 		break;
-	    case 'anim-loading-2' : loadStep('dist/assets/anim-data/seq-loading-prior-2.json', 'screen-loading-2', true, [28,256], 1)
+	    case 'anim-304' : loadStep('dist/assets/anim-data/seq-strategy-static.json', 'screen-304', true, [116,237], 0.45)
+		break;		
+	    case 'anim-400' : loadStep('dist/assets/anim-data/seq-hagerstations.json', 'screen-400', true, [28,192], 1)
+		break;	
+	    case 'anim-500' : loadStep('dist/assets/anim-data/seq-loading.json', 'screen-500', true, [28,450], 0.75)
 		break;
-	    case 'anim-loading-3' : loadStep('dist/assets/anim-data/seq-loading-prior-3.json', 'screen-loading-3', true, [28,256], 1)
+	    case 'anim-900' : loadStep('dist/assets/anim-data/seq-group.json', 'screen-900', false, [28,128], .85)
 		break;
-	    case 'anim-badges' : loadStep('dist/assets/anim-data/seq-badge.json', 'screen-badge', false, [28,160], 1)
+	    case 'anim-1100' : loadStep('dist/assets/anim-data/seq-loading-prior-1.json', 'screen-1100', true, [28,296], 1)
+		break;
+	    case 'anim-1101' : loadStep('dist/assets/anim-data/seq-loading-prior-2.json', 'screen-1101', true, [28,296], 1)
+		break;
+	    case 'anim-1102' : loadStep('dist/assets/anim-data/seq-loading-prior-3.json', 'screen-1102', true, [28,296], 1)
+		break;
+	    case 'anim-1201' : loadStep('dist/assets/anim-data/seq-badge.json', 'screen-1201', false, [28,192], 1)
 		break;
 	    }
 	});
