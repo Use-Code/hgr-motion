@@ -5,9 +5,7 @@ const wrapperHeight = 884;
 
 (function(window){
     init();
-    // loadStep('dist/assets/anim-data/seq-chargingstation.json', 'screen-cs', false, [28,192]);
-    // loadStep('dist/assets/anim-data/seq-strategy-dynamic.json', 'screen-strategy-dynamic', true, [-50,200], 0.45);
-    loadStep('dist/assets/anim-data/seq-strategy-static.json', 'screen-strategy-static', true, [116,200], 0.45);
+    loadStep('dist/assets/anim-data/seq-chargingstation.json', 'screen-cs', false, [28,192]);
 })(window);
 
 
@@ -34,8 +32,6 @@ function init(){
 		break;
 	    case 'anim-badges' : loadStep('dist/assets/anim-data/seq-badge.json', 'screen-badge', false, [28,160], 1)
 		break;
-	    // case 'anim-3' : loadStep('dist/assets/anim-data/seq-llm-dynamic.json', 'dist/assets/screen.png', true, [28,312], 1)
-		// break;
 	    }
 	});
     })
@@ -46,8 +42,6 @@ function loadStep(animFile, screenId, isLoop, position, scale){
     const container = document.getElementById('anim');
     const screen = document.getElementById('screen');
     const svg = document.getElementsByTagName('svg'); // if an anim is present, we spot it...
-    // console.log(container.setAttribute('style': 'display: none;'));
-    // container.setAttribute('style', 'transform: scale('+scale+')');
     svg.length > 0 ? container.removeChild(svg[0]) : null; // ...and we remove it
     const animation = Lottie.loadAnimation({
 	container: container,
