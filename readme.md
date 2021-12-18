@@ -21,7 +21,7 @@ Each animation is available in `client/assets/anim-data`, in `json` format, read
 ## Live preview ##
 https://use-code.github.io/hgr-motion/
 
-### Run the preview locally ###
+## Run the preview locally ##
 
 ``` bash
 git clone https://github.com/Use-Code/hgr-motion.git
