@@ -12,7 +12,7 @@ const animation = Lottie.loadAnimation({
 	renderer: 'svg',
 	loop: true, // some may be true, some may be false, see client/js/index.js 
 	autoplay: true, 
-	path: 'client/assets/anim-data/anim.json' // available in client/assets/aniam-data in josn format
+	path: 'client/assets/anim-data/anim.json' // available in client/assets/anim-data in josn format
 });
 ```
 
