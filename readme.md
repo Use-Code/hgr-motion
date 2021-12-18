@@ -18,6 +18,16 @@ const animation = Lottie.loadAnimation({
 
 Each animation is available in `client/assets/anim-data`, in `json` format, ready to be swallowd by Lottie. 
 
-### Side note ###
+## Live preview ##
+https://use-code.github.io/hgr-motion/
 
-`dist/` is the compiled folder (thanks to Webpack) that contains files, which are used on the website served with GitHub pages on https://use-code.github.io/hgr-motion/
+### Run the preview locally ###
+
+``` bash
+git clone https://github.com/Use-Code/hgr-motion.git
+cd hgr-motion
+npm install
+npm start # starts on localhost:4480
+```
+
+> Webpack compiles the files in the `dist/` folder.
