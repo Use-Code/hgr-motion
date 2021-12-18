@@ -16,7 +16,7 @@ const animation = Lottie.loadAnimation({
 });
 ```
 
-Each animation is available in `client/assets/anim-data`, in `json` format, ready to be swallowd by Lottie. 
+Each animation is available in `client/assets/anim-data`, in `json` format, ready to be managed by Lottie. 
 
 ## Live preview ##
 https://use-code.github.io/hgr-motion/
