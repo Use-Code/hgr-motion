@@ -1,6 +1,6 @@
 # Hager - Animations #
 
-Animations are displayed with [Lottie](http://airbnb.io/lottie/#/web). The file `client/js/index.js` contains a simple example of implementation. 
+Animations are played with [Lottie](http://airbnb.io/lottie/#/web). The file `client/js/index.js` contains a simple example of implementation. 
 
 ``` javascript
 import Lottie from 'lottie-web'
